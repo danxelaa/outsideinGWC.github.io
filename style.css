@@ -157,7 +157,7 @@ p {
 
 .slides {
     padding: 0;
-    width: 609px;
+    width: 780px;
     height: 420px;
     display: block;
     margin: 0 auto;
@@ -180,7 +180,7 @@ p {
 .slide {
     top: 0;
     opacity: 0;
-    width: 600px;
+    width: 750px;
     height: 420px;
     display: block;
     position: absolute;
@@ -191,12 +191,12 @@ p {
 }
 
 .slide img {
-    width: 100%;
-    height: 100%;
+    width: 600px;
+    height: 420px;
 }
 
 .nav label {
-    width: 200px;
+    width: 180px;
     height: 100%;
     display: none;
     position: absolute;
@@ -207,7 +207,7 @@ p {
 
     transition: opacity .2s;
 
-    color: #FFF;
+    color: #000000;
     font-size: 150px;
     text-align: center;
     line-height: 380px;
@@ -277,3 +277,58 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     text-align: center;
 }
 
+.daniela {
+    width: 200px;
+    height: 200px;
+    background-image: url(daniela.jpg);
+    background-position: 0 0;
+}
+
+.daniela:hover {
+    background-position: 0 100%;
+}
+
+.jackie {
+    width: 200px;
+    height: 200px;
+    background-image: url(jackie.jpg);
+    background-position: 0 0;
+}
+
+.jackie:hover {
+    background-position: 0 100%;
+}
+
+.jamie {
+    width: 200px;
+    height: 200px;
+    background-image: url(jamie.jpg);
+    background-position: 0 0;
+}
+
+.jamie:hover {
+    background-position: 0 100%;
+}
+
+.kenna {
+    width: 200px;
+    height: 200px;
+    background-image: url(kenna.jpg);
+    background-position: 0 0;
+}
+
+.kenna:hover {
+    background-position: 0 100%;
+}
+
+#about-us h2 {
+    color: #FFFFFF;
+}
+
+a.email{
+    background: url("email.png");
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    transform: scale(0.5, 0.5);
+}
