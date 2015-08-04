@@ -60,7 +60,7 @@ var tokensDes = ["Turn to family who make you feel loved because they want to he
                  "'The reason we struggle with insecurity is because we compare our behind-the-scenes with everyone else's highlight reel.' - Steve Furtick",
                  "Talk with your health care professional to find ways to address drug abuse or dependency directly.",
                  "Sometimes you may be sad and you do not even know why." ,
-                 "Exercise is considered one the best anti-depressants." ,
+                 "Exercise is considered one of the best anti-depressants." ,
                  "Listen to music, for it provides opportunity for relaxation and appreciation." ,
                  "Relaxation, such as enough hours of sleep or yoga and meditation, reduces stress." ,
                  "Surround yourself with positivity."
