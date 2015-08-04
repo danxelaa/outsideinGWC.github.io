@@ -352,7 +352,7 @@ var checkCollision = function(direction) {
    check = true;
    for(elem in Walls) {
       if (Walls[elem].kind == "black") {
-         if (direction == "up" && player1.y <= Walls[elem].y + 76 && player1.y >= Walls[elem].y && player1.x + 30 >= Walls[elem].x && player1.x - 30 <= Walls[elem].x) {
+         if (direction == "up" && player1.y <= Walls[elem].y + 76 && player1.y >= Walls[elem].y && player1.x + 15 >= Walls[elem].x-15 && player1.x + 15 <= Walls[elem].x+75) {
          //if (direction == "up" && player1.y >= Walls[elem].y + 60 && player1.x + 30 >= Walls[elem].x && player1.x - 30 <= Walls[elem].x) {   
             //UP
             //orig: 70
@@ -362,7 +362,7 @@ var checkCollision = function(direction) {
                   break;
             //}
          //RIGHT
-         }else if (direction == "right"  && player1.x + 30 >= Walls[elem].x-16 && player1.x + 30 <= Walls[elem].x + 60 && player1.y + 15 >= Walls[elem].y && player1.y + 15 <= Walls[elem].y+76) {
+         }else if (direction == "right"  && player1.x + 30 >= Walls[elem].x-16 && player1.x + 30 <= Walls[elem].x + 60 && player1.y + 15 >= Walls[elem].y-15 && player1.y + 15 <= Walls[elem].y+75) {
          //}else if (direction == "right"  && player1.x >= Walls[elem].x - 40 && player1.x + 30<= Walls[elem].x && player1.y + 30 >= Walls[elem].y && player1.y - 30 <= Walls[elem].y) {
             //if (player1.x >= Walls[elem].x - 40) {
                console.log("block's x pos: " + Walls[elem].x);
@@ -372,7 +372,7 @@ var checkCollision = function(direction) {
                break;
             //}
          //LEFT
-         }else if (direction == "left" && player1.x>= Walls[elem].x && player1.x <= Walls[elem].x+76 && player1.y + 15 >= Walls[elem].y && player1.y + 15 <= Walls[elem].y + 76) {
+         }else if (direction == "left" && player1.x>= Walls[elem].x && player1.x <= Walls[elem].x+76 && player1.y + 15 >= Walls[elem].y-15 && player1.y + 15 <= Walls[elem].y +75) {
          //}else if (direction == "left" && player1.x >= Walls[elem].x && player1.y + 30 >= Walls[elem].y && player1.y - 30 <= Walls[elem].y) {
             //if (player1.x <= Walls[elem].x + 70) {
                leftCollision = true;
@@ -380,7 +380,7 @@ var checkCollision = function(direction) {
                break;
          //DOWN
          }else if (direction == "down" && player1.y + 30 <= Walls[elem].y + 60 && player1.y+30 >= Walls[elem].y - 16) {
-            if (player1.x + 20 >= Walls[elem].x && player1.x + 20 <= Walls[elem].x + 60) {
+            if (player1.x + 15 >= Walls[elem].x-15 && player1.x + 15 <= Walls[elem].x + 75) {
                //}else if (direction == "down" && player1.y + 30 <= Walls[elem].y && player1.x + 30 >= Walls[elem].x && player1.x-30 <= Walls[elem].x) { 
                   //if (player1.y >= Walls[elem].y - 60) {
                downCollision = true;
