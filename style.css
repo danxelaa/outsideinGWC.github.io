@@ -48,9 +48,8 @@ h2 {
 
 h3
 {
-    font-size: 28px;
+    font-size: 30px;
     color: #FFFFFF;
-    font-family: Neou;
 }
 
 p {
@@ -76,6 +75,11 @@ p {
 #title #scene #intro .inner {
     position: relative;
     top: 20%;
+}
+
+#title h2 {
+    color: #FFFFFF;
+    font-family: Neou;
 }
 
 .scroll-to {
@@ -137,16 +141,14 @@ p {
     text-align: center;
 }
 
-#creators img {
-    margin: 10px;
-}
-
 #creators h3 {
     color: #FFFFFF;
+    display: inline-block;
 }
 
 #creators {
     text-align: center;
+    display: inline-block;
 }
 
 #mycanvas {
@@ -324,6 +326,12 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 #about-us h2 {
     color: #FFFFFF;
+}
+
+#about-us p {
+    font-family: Neou;
+    font-size: 20px;
+    text-align: center;
 }
 
 a.email{
