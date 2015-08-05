@@ -324,6 +324,17 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background-position: 0 100%;
 }
 
+.leslie {
+    width: 200px;
+    height: 200px;
+    background-image: url(leslie.jpg);
+    background-position: 0 0;
+}
+
+.leslie:hover {
+    background-position: 0 100%;
+}
+
 #about-us h2 {
     color: #FFFFFF;
 }
