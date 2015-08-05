@@ -3,7 +3,6 @@
 
 void setup()
 {
-   //size(6000,6000);
    size(600,600);
    background(125);
    fill(255);
