@@ -19,7 +19,7 @@
 	</head>
 	
 	<body style="overflow-y: visible;"> 
-		<embed src="try.mp3" width=25 height=25 autostart=false repeat=true loop=true></embed>
+		<!--<embed src="try.mp3" width=25 height=25 autostart=false repeat=true loop=true></embed>-->
 		<section id="title">
 			<div id="scene" style="height: 900px;">
 				<div id="intro">
@@ -37,6 +37,8 @@
 		
 		<section id="game">
 			<div class="gamecontainer" style="height: 730px;">
+				<audio id="player" src="try.mp3" autoplay="autoplay" loop="true"></audio>
+				<img src="unmute.gif" onclick="document.getElementById('player').muted=!document.getElementById('player').muted"/>
 				<canvas id="mycanvas"></canvas>
 				</section>
 			</div>
