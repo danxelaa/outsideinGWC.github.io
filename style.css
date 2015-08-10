@@ -336,10 +336,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 
 .gamecontainer img {
-    margin-top: 610px;
     float: left;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 #about-us h2 {
