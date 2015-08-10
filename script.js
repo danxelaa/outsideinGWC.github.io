@@ -140,7 +140,7 @@ var textToken = function(name,x,y) {
    this.x = x;
    this.y = y;
    this.draw = function() {
-      fill(0, 204, 255);
+      fill(51, 51, 255);
       text(this.name,this.x + scrollX, this.y + scrollY, 100, 200);
    };
    
