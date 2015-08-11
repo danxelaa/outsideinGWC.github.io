@@ -335,12 +335,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background-position: 0 100%;
 }
 
-.gamecontainer img {
-    float: left;
-    width: 40px;
-    height: 40px;
-}
-
 #about-us h2 {
     color: #FFFFFF;
 }
@@ -369,3 +363,27 @@ a:hover{
     color: #0099FF;
 }
 
+.gamecontainer img {
+    float: left;
+    width: 50px;
+    height: 40px;
+    margin: 20px;
+    transform: translateY(50px);
+    
+}
+
+input#un-mute {
+  display: none;
+}
+
+.unmute img {
+  display: none;
+}
+
+input#un-mute:checked ~ .unmute img {
+  display: initial;
+}
+
+input#un-mute:checked ~ .mute img {
+  display: none;
+}
